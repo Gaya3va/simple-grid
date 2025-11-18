@@ -1,0 +1,50 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Simple Grid</title>
+    <style>
+        .grid {
+            width: 600px;
+            margin: 50px auto;
+            display: grid;
+            grid-template-columns: repeat(3, 1fr);
+            gap: 10px;
+        }
+        .box {
+            height: 120px;
+            display: flex;
+            justify-content: center;
+            align-items: center;
+            font-size: 32px;
+            color: white;
+            font-family: Arial, sans-serif;
+        }
+        .b1 { background:#00b7ff; }
+        .b2 { background:#ff3c00; }
+        .b3 { background:#3d63e6; }
+        .b4 { background:#f5d000; }
+        .b5 { background:#8c2dea; }
+        .b6 { background:#2ecc41; }
+        .b7 { background:#ff8a63; }
+        .b8 { background:#1db4b2; }
+        .b9 { background:#6e0000; }
+    </style>
+</head>
+<body>
+
+<div class="grid">
+    <div class="box b2">2.</div>
+    <div class="box b3">3.</div>
+    <div class="box b4">4.</div>
+
+    <div class="box b5">5.</div>
+    <div class="box b6">6.</div>
+    <div class="box b1">1.</div>
+
+    <div class="box b7">7.</div>
+    <div class="box b8">8.</div>
+    <div class="box b9">9.</div>
+</div>
+
+</body>
+</html>
